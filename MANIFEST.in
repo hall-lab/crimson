@@ -8,4 +8,4 @@ include setup.py
 include Makefile
 
 recursive-include crimson *
-recursive-include docs *.rst conf.py
+recursive-exclude docs *.rst conf.py
