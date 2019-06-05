@@ -5,6 +5,7 @@ include README.rst
 include requirements.txt
 include requirements-dev.txt
 include setup.py
+include Makefile
 
 recursive-include crimson *
-recursive-include docs *.rst conf.py Makefile make.bat
+recursive-include docs *.rst conf.py
